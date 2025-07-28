@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8" />
+    <title>שרטוט</title>
+</head>
+<body>
+    <h1>השרטוט שלך:</h1>
+    <img src="{{ url_for('static', filename=filename) }}" alt="Sketch Image" />
+    <br />
+    <a href="{{ url_for('upload_file') }}">העלה תמונה חדשה</a>
+</body>
+</html>
